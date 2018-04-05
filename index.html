@@ -44,25 +44,25 @@ As you can see, white matter vanishes over time.</p>
     }
     
     h1 {
- display: inline-block;
+        display: inline-block;
         color: #009933;
         font-size: 45px;
-        display: inline-block;
         text-shadow: 3px 3px 0 black , 4px 4px 0 black , 5px 5px 0 black;
         transition-duration: 600ms;
         /* Starting position */
  -webkit-transform:translateX(100%);	
  transform:translateX(100%);
  /* Apply animation to this element */	
- -webkit-animation: example1 10s ease infinite;
- animation: example1 10s ease infinite;
+ -webkit-animation: example 10s ease;
+ animation: example1 10s ease;
+        -webkit-animation-fill-mode: forwards;
+
 }
+
 /* Move it (define the animation) */
 @-webkit-keyframes example1 {
- 0%   { -webkit-transform: translateX(200%); }
- 40%   { -webkit-transform: translateX(0%); }
- 60%   { -webkit-transform: translateX(0%); }
- 100% { -webkit-transform: translateX(0%); }
+ from  { -webkit-transform: translateX(300%); }
+to { -webkit-transform: translateX(0%); }
 }
 
 
