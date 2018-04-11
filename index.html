@@ -42,7 +42,7 @@ As you can see, white matter vanishes over time.</p>
     
     
     body {
- background-size: cover;
+        background-size: cover;
     }
     
     h1 {
@@ -52,20 +52,20 @@ As you can see, white matter vanishes over time.</p>
         text-shadow: 3px 3px 0 black , 4px 4px 0 black , 5px 5px 0 black;
         transition-duration: 600ms;
         /* Starting position */
- -webkit-transform:translateX(100%);	
- transform:translateX(100%);
- /* Apply animation to this element */	
- -webkit-animation: example 5s ease;
- animation: example1 5s ease;
+        -webkit-transform:translateX(100%);	
+        transform:translateX(100%);
+        /* Apply animation to this element */	
+        -webkit-animation: example 5s ease;
+        animation: example1 5s ease;
         -webkit-animation-fill-mode: forwards;
 
-}
+    }
 
-/* Move it (define the animation) */
-@-webkit-keyframes example1 {
+    /* Move it (define the animation) */
+    @-webkit-keyframes example1 {
  from  { -webkit-transform: translateX(460%); }
-to { -webkit-transform: translateX(0%); }
-}
+        to { -webkit-transform: translateX(0%); }
+    }
 
     
     .headline {
