@@ -8,7 +8,7 @@
     
     <div class="container-fluid">
         <div class="row">
-            <div class="col-lg-0">
+            <div class="col-lg-6">
                 <head>
 <h1>Welcome to PsycheNerd</h1>
                 </head>
@@ -19,17 +19,76 @@
 <body background="PsycheNerd.github.io/images/ezgif.com-crop.gif">
     
 </br>
-<p>Hello there, together we are going to get to the bottom of mental illnesses.</p>
-     
+<p class="hello">Hello there, together we are going to get to the bottom of mental illnesses.
+     </br>
+     Mental illness can be very complicated, thus let us take a look at the different categories of mental disorders.</p>
+    
+    <ul class="disorders">
+    <li>Personality disorders</li>
+        <li>Psychotic disorder</li>
+        <li>Anxiety disorders</li>
+        <li>Mood disorders</li>
+        <li>Impulse control and addiction disorders</li>
+        <li>Obsessive-compulsive disorder (OCD)</li>
+        <li>Post-traumatic stress disorder (PTSD)</li>
+        <li>Eating disorders</li>
+    </ul>
+    
+    <p class="PD">Personality disorders</p>
+    <p class="PDtext">
+        A personality is a combination of thoughts, emotions and ones perception.
+        So far, we know that a personality gets formed the most during the first 20 years of life.
+    </br>
+It is mostly shaped by the people we surround ourselves with.
+    </p>
 </body>
         </div>
         
 </div>
     
 <style>
+    
+    ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 20px;
+}
 
+li {
+  padding-left: 1em;
+  text-indent: -1em;
+}
+
+li:before {
+  content: "♦";
+  padding-right: 5px;
+}
+    
+    
     body {
         background-size: cover;
+    }
+    
+    .hello {
+        font-family: serif;
+        font-size: 20px;
+        margin-left: 20px;
+    }
+    
+    .disorders {
+         font-family: serif;
+        font-size: 18px;
+    }
+    
+    .PD {
+        font-family: serif;
+        font-size: 22px;
+        text-decoration: underline;
+        margin-left: 20px;
+    }
+    
+    .PDtext {
+        margin-left: 20px;
     }
 
 h1 {
